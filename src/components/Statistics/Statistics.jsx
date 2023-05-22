@@ -16,7 +16,7 @@ const Statistics = ({good, neutral, bad, total, positivePercentage, children}) =
                             </ul>
                         </div>
                         <p className={css.addData}>Total: {total}</p>
-                        <p className={css.addData}>Positive feedback: {isNaN(positivePercentage) ? 0 : Math.round(this.props.positivePercentage)}%</p>
+                        <p className={css.addData}>Positive feedback: {isNaN(positivePercentage) ? 0 : Math.round(positivePercentage)}%</p>
                     </>
                 )}
         </>

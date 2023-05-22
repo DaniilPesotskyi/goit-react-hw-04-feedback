@@ -42,9 +42,9 @@ const App = () => {
           onFeedback={onLeaveFeedback}
         />
         <Statistics
-          good={this.state.good}
-          neutral={this.state.neutral}
-          bad={this.state.bad}
+          good={good}
+          neutral={neutral}
+          bad={bad}
           total={countTotalFeedback()}
           positivePercentage={countPositiveFeedbackPercentage()}
         >
